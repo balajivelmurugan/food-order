@@ -11,6 +11,6 @@ export class MenuService {
   constructor(private http: HttpClient) { }
 
   getMenuList(): Observable<Menu[]>{
-    return this.http.get<Menu[]>('food-order/assets/mock-data/menu.json');
+    return this.http.get<Menu[]>('/assets/mock-data/menu.json');
   }
 }
