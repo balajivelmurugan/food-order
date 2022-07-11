@@ -1,0 +1,701 @@
+[{
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$132.32",
+  "order_date": "05/03/2021",
+  "order_time": "12:24 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$371.65",
+  "order_date": "02/04/2021",
+  "order_time": "9:16 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$259.72",
+  "order_date": "03/03/2021",
+  "order_time": "11:25 AM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$208.25",
+  "order_date": "28/10/2020",
+  "order_time": "10:21 AM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$348.02",
+  "order_date": "05/05/2022",
+  "order_time": "12:46 PM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$130.97",
+  "order_date": "08/04/2021",
+  "order_time": "9:34 AM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$234.55",
+  "order_date": "16/06/2022",
+  "order_time": "4:13 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$215.71",
+  "order_date": "26/04/2021",
+  "order_time": "9:51 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$386.78",
+  "order_date": "28/06/2021",
+  "order_time": "2:04 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$319.36",
+  "order_date": "01/08/2020",
+  "order_time": "9:45 AM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$299.05",
+  "order_date": "20/10/2021",
+  "order_time": "3:06 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$386.77",
+  "order_date": "31/01/2021",
+  "order_time": "11:52 AM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$122.11",
+  "order_date": "28/03/2022",
+  "order_time": "12:12 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$281.19",
+  "order_date": "02/01/2021",
+  "order_time": "7:42 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$239.76",
+  "order_date": "28/11/2021",
+  "order_time": "2:28 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$266.42",
+  "order_date": "24/03/2021",
+  "order_time": "4:46 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$303.00",
+  "order_date": "22/05/2021",
+  "order_time": "3:59 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$314.96",
+  "order_date": "01/12/2021",
+  "order_time": "4:45 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$375.10",
+  "order_date": "21/03/2021",
+  "order_time": "5:14 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$267.95",
+  "order_date": "09/01/2022",
+  "order_time": "8:32 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$167.48",
+  "order_date": "06/03/2021",
+  "order_time": "5:28 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$282.87",
+  "order_date": "01/07/2021",
+  "order_time": "1:39 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$125.94",
+  "order_date": "21/01/2021",
+  "order_time": "5:07 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$141.60",
+  "order_date": "13/11/2020",
+  "order_time": "1:14 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$373.14",
+  "order_date": "19/02/2022",
+  "order_time": "12:39 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$230.12",
+  "order_date": "22/04/2022",
+  "order_time": "10:29 AM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$319.73",
+  "order_date": "03/04/2021",
+  "order_time": "10:25 AM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$173.64",
+  "order_date": "27/03/2022",
+  "order_time": "9:14 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$355.56",
+  "order_date": "17/05/2021",
+  "order_time": "3:29 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$377.57",
+  "order_date": "21/04/2022",
+  "order_time": "1:19 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$200.53",
+  "order_date": "20/02/2021",
+  "order_time": "11:56 AM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$341.00",
+  "order_date": "13/05/2021",
+  "order_time": "4:35 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$269.34",
+  "order_date": "24/11/2021",
+  "order_time": "3:10 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$278.86",
+  "order_date": "26/10/2021",
+  "order_time": "6:11 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$111.14",
+  "order_date": "18/08/2021",
+  "order_time": "6:56 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$206.50",
+  "order_date": "15/06/2021",
+  "order_time": "1:22 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$156.76",
+  "order_date": "14/08/2021",
+  "order_time": "3:28 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$277.56",
+  "order_date": "09/06/2022",
+  "order_time": "6:14 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$220.91",
+  "order_date": "11/01/2021",
+  "order_time": "10:08 AM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$340.02",
+  "order_date": "14/03/2022",
+  "order_time": "8:56 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$397.72",
+  "order_date": "15/10/2020",
+  "order_time": "4:46 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$355.21",
+  "order_date": "19/10/2020",
+  "order_time": "4:49 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$157.66",
+  "order_date": "30/06/2021",
+  "order_time": "2:34 PM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$398.06",
+  "order_date": "21/08/2020",
+  "order_time": "9:09 AM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$310.00",
+  "order_date": "08/04/2021",
+  "order_time": "6:46 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$354.77",
+  "order_date": "27/02/2021",
+  "order_time": "7:20 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$205.32",
+  "order_date": "11/11/2020",
+  "order_time": "8:57 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$307.33",
+  "order_date": "08/09/2021",
+  "order_time": "2:32 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$126.52",
+  "order_date": "06/07/2022",
+  "order_time": "6:01 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$338.70",
+  "order_date": "17/11/2021",
+  "order_time": "4:26 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$337.98",
+  "order_date": "13/10/2021",
+  "order_time": "4:04 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$313.83",
+  "order_date": "16/08/2021",
+  "order_time": "9:12 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$301.30",
+  "order_date": "19/09/2021",
+  "order_time": "12:16 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$333.99",
+  "order_date": "29/04/2021",
+  "order_time": "4:50 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$219.23",
+  "order_date": "15/03/2022",
+  "order_time": "7:11 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$318.07",
+  "order_date": "20/05/2022",
+  "order_time": "9:32 AM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$170.66",
+  "order_date": "14/01/2021",
+  "order_time": "2:38 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$110.57",
+  "order_date": "29/01/2022",
+  "order_time": "9:41 AM"
+}, {
+  "item_name": "Paneer Fried Rice",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$301.36",
+  "order_date": "27/02/2022",
+  "order_time": "11:37 AM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$339.77",
+  "order_date": "27/11/2021",
+  "order_time": "1:22 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$147.20",
+  "order_date": "02/07/2022",
+  "order_time": "11:23 AM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$231.96",
+  "order_date": "22/02/2022",
+  "order_time": "3:36 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$246.53",
+  "order_date": "21/10/2021",
+  "order_time": "5:52 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$376.94",
+  "order_date": "15/07/2021",
+  "order_time": "4:48 PM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$387.29",
+  "order_date": "02/12/2021",
+  "order_time": "9:30 PM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$379.42",
+  "order_date": "04/04/2021",
+  "order_time": "7:45 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$350.63",
+  "order_date": "13/03/2021",
+  "order_time": "10:17 AM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$205.33",
+  "order_date": "24/02/2021",
+  "order_time": "2:47 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$238.89",
+  "order_date": "08/07/2022",
+  "order_time": "2:53 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$275.10",
+  "order_date": "25/06/2022",
+  "order_time": "1:36 PM"
+}, {
+  "item_name": "Paneer Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$297.00",
+  "order_date": "27/10/2020",
+  "order_time": "2:10 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$253.88",
+  "order_date": "14/11/2020",
+  "order_time": "6:58 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$106.00",
+  "order_date": "27/12/2021",
+  "order_time": "1:11 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$281.24",
+  "order_date": "09/12/2020",
+  "order_time": "5:29 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$378.47",
+  "order_date": "13/09/2021",
+  "order_time": "7:09 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$266.39",
+  "order_date": "28/07/2021",
+  "order_time": "9:37 AM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$118.86",
+  "order_date": "11/11/2020",
+  "order_time": "3:26 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$262.51",
+  "order_date": "18/01/2022",
+  "order_time": "3:59 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$198.23",
+  "order_date": "21/06/2022",
+  "order_time": "6:02 PM"
+}, {
+  "item_name": "Idly",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$354.70",
+  "order_date": "08/03/2022",
+  "order_time": "9:56 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$369.62",
+  "order_date": "13/02/2021",
+  "order_time": "10:56 AM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$185.73",
+  "order_date": "24/10/2021",
+  "order_time": "9:40 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$370.88",
+  "order_date": "13/06/2021",
+  "order_time": "9:38 PM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$371.71",
+  "order_date": "11/05/2021",
+  "order_time": "1:13 PM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$162.41",
+  "order_date": "11/09/2021",
+  "order_time": "12:24 PM"
+}, {
+  "item_name": "Mushroom Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$157.90",
+  "order_date": "01/10/2021",
+  "order_time": "11:26 AM"
+}, {
+  "item_name": "Chicken Fried Rice",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$377.31",
+  "order_date": "19/11/2021",
+  "order_time": "3:54 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$318.40",
+  "order_date": "02/08/2021",
+  "order_time": "3:04 PM"
+}, {
+  "item_name": "Egg Fried Rice",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$337.91",
+  "order_date": "18/09/2020",
+  "order_time": "2:52 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$351.25",
+  "order_date": "19/08/2020",
+  "order_time": "12:56 PM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$295.22",
+  "order_date": "14/06/2021",
+  "order_time": "11:15 AM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$227.50",
+  "order_date": "24/12/2021",
+  "order_time": "12:59 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Veg",
+  "cuisine": "North Indian",
+  "price": "$251.55",
+  "order_date": "11/09/2021",
+  "order_time": "5:46 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$366.59",
+  "order_date": "12/10/2021",
+  "order_time": "11:16 AM"
+}, {
+  "item_name": "Chicken Noodles",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$284.28",
+  "order_date": "29/09/2020",
+  "order_time": "8:27 PM"
+}, {
+  "item_name": "Fish FInger",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$115.48",
+  "order_date": "21/06/2021",
+  "order_time": "6:45 PM"
+}, {
+  "item_name": "Chapathi",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$344.10",
+  "order_date": "16/02/2021",
+  "order_time": "10:10 AM"
+}, {
+  "item_name": "Grilled Chicken",
+  "type": "Non-Veg",
+  "cuisine": "North Indian",
+  "price": "$284.72",
+  "order_date": "10/06/2021",
+  "order_time": "1:34 PM"
+}, {
+  "item_name": "Tandoori",
+  "type": "Veg",
+  "cuisine": "South Indian",
+  "price": "$106.53",
+  "order_date": "01/05/2021",
+  "order_time": "6:14 PM"
+}, {
+  "item_name": "Dosa",
+  "type": "Non-Veg",
+  "cuisine": "South Indian",
+  "price": "$207.65",
+  "order_date": "21/02/2022",
+  "order_time": "2:38 PM"
+}]

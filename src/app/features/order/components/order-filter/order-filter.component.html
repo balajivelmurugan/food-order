@@ -1,0 +1,17 @@
+<div class="order-filter-container">
+  <div fxLayout fxLayoutGap="10">
+    <button mat-raised-button color="primary" *ngIf="filters?.cuisine" (click)="clearFilter('cuisine');filterData.emit(filters)">{{filters.cuisine}}<mat-icon>close</mat-icon></button>
+    <button mat-raised-button color="primary" *ngIf="filters?.type" (click)="clearFilter('type'); filterData.emit(filters)">{{filters?.type}}<mat-icon>close</mat-icon></button>
+    <button mat-stroked-button [matMenuTriggerFor]="cuisine">Cuisine</button>
+    <button mat-stroked-button [matMenuTriggerFor]="type">Type</button>
+    <button mat-stroked-button>Frequently Ordered</button>
+  </div>
+</div>
+<mat-menu #cuisine="matMenu" class="w-100">
+  <button mat-menu-item (click)="filterUpdate('cuisine', 'North Indian'); filterData.emit(filters)">North Indian</button>
+  <button mat-menu-item (click)="filterUpdate('cuisine', 'South Indian'); filterData.emit(filters)">South Indian</button>
+</mat-menu>
+<mat-menu #type="matMenu" class="w-100">
+  <button mat-menu-item (click)="filterUpdate('type', 'Veg'); filterData.emit(filters)">Veg</button>
+  <button mat-menu-item (click)="filterUpdate('type', 'Non-Veg'); filterData.emit(filters)">Non-Veg</button>
+</mat-menu>

@@ -1,0 +1,21 @@
+<div *ngFor="let item of cartDataList" class="cart-container mat-elevation-z4">
+  <div class="cart-wrapper" fxLayout="row" fxLayoutAlign="space-between center">
+    <div class="cart-img">
+      <img [src]="item.img_url" />
+    </div>
+    <div>
+    <div>
+      <h2>{{item.name}}</h2>
+    </div>
+    <div>
+      {{item.price}}
+    </div>
+  </div>
+  <div>
+    <div fxLayout class="count-container">
+      <mat-icon class="count-icon" (click)="item.quantity = item.quantity-1; removeCart(item)">remove</mat-icon><span class="count-value">{{item.quantity}}</span><mat-icon class="count-icon" (click)="item.quantity = item.quantity+1;updateCart(item)">add</mat-icon>
+    </div>
+  </div>
+  </div>
+  <mat-divider></mat-divider>
+</div>

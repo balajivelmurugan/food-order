@@ -1,0 +1,17 @@
+<mat-toolbar class="mat-elevation-z4">
+  <div fxLayout fxLayoutAlign="space-between center" fxLayoutAlign.xs="space-between center" class="w-100">
+    <div fxShow.lt-sm="true" fxHide><mat-icon>menu</mat-icon></div>
+    <div class="logo" fxFlex.gt-sm="60"><h1>Food Order</h1></div>
+    <div fxFlex.gt-sm="auto">
+      <nav fxLayout fxLayoutAlign="space-evenly center" fxLayoutAlign.xs="end">
+        <a fxHide.lt-sm="true">Help</a>
+        <a fxHide.lt-sm="true" [routerLink]="['/menu']">Home</a>
+        <a fxHide.lt-sm="true" [routerLink]="['/orders']" >Orders</a>
+        <a [matMenuTriggerFor]="cartList.length ? cart : null"><span [matBadge]="cartCount" matBadgeOverlap="false" matBadgeSize="medium">Cart</span></a>
+        <mat-menu #cart="matMenu" class="w-100">
+          <app-cart [cartDataList]="cartList" *ngIf="cartList.length"></app-cart>
+        </mat-menu>
+      </nav>
+    </div>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,22 @@
+nav{
+  a{
+    padding: 5px 15px;
+    border: 2px solid #D5D5D5;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    color:#646464;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-size: 14px;
+    text-decoration: none;
+
+    &:hover{
+      background-color: #D5D5D5;
+      color: #000000;
+    }
+  }
+}
+
+.alt-message{
+  padding: 10px;
+}
