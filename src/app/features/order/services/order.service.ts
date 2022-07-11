@@ -11,6 +11,6 @@ export class OrderService {
   constructor(private http: HttpClient) { }
 
   getOrderData(): Observable<Order[]>{
-    return this.http.get<Order[]>('food-order/assets/mock-data/orders.json')
+    return this.http.get<Order[]>('./assets/mock-data/orders.json')
   }
 }

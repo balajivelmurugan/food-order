@@ -6,7 +6,7 @@
     "Lunch","Dinner"
   ],
   "price": "$124.24",
-  "img_url": "food-order/assets/images/chicken-fried-rice.jpg"
+  "img_url": "./assets/images/chicken-fried-rice.jpg"
 }, {
   "name": "Chicken Noodles",
   "type": "Non-Veg",
@@ -15,7 +15,7 @@
     "Lunch","Dinner"
   ],
   "price": "$190.09",
-  "img_url": "food-order/assets/images/chicken_noodles.jpg"
+  "img_url": "./assets/images/chicken_noodles.jpg"
 }, {
   "name": "Egg Fried Rice",
   "type": "Non-Veg",
@@ -24,7 +24,7 @@
     "Lunch","Dinner"
   ],
   "price": "$124.93",
-  "img_url": "food-order/assets/images/egg_rice.jpg"
+  "img_url": "./assets/images/egg_rice.jpg"
 },{
   "name": "Mushroom Fried Rice",
   "type": "Veg",
@@ -33,7 +33,7 @@
     "Lunch","Dinner"
   ],
   "price": "$153.74",
-  "img_url": "food-order/assets/images/mushroom.jpg"
+  "img_url": "./assets/images/mushroom.jpg"
 }, {
   "name": "Dosa",
   "type": "Veg",
@@ -42,7 +42,7 @@
     "Breakfast","Dinner"
   ],
   "price": "$286.07",
-  "img_url": "/food-order/assets/images/dosa.jpg"
+  "img_url": "/./assets/images/dosa.jpg"
 }, {
   "name": "Idly",
   "type": "Veg",
@@ -51,7 +51,7 @@
     "Breakfast"
   ],
   "price": "$277.95",
-  "img_url": "food-order/assets/images/idly.jpg"
+  "img_url": "./assets/images/idly.jpg"
 }, {
   "name": "Tandoori",
   "type": "Non-Veg",
@@ -60,7 +60,7 @@
     "Lunch","Dinner"
   ],
   "price": "$169.09",
-  "img_url": "food-order/assets/images/tandoori.jpg"
+  "img_url": "./assets/images/tandoori.jpg"
 }, {
   "name": "Grilled Chicken",
   "type": "Non-Veg",
@@ -69,7 +69,7 @@
     "Lunch","Dinner"
   ],
   "price": "$43.23",
-  "img_url": "food-order/assets/images/grilled.jpg"
+  "img_url": "./assets/images/grilled.jpg"
 }, {
   "name": "Paneer Fried Rice",
   "type": "Veg",
@@ -78,7 +78,7 @@
     "Lunch","Dinner"
   ],
   "price": "$264.32",
-  "img_url": "food-order/assets/images/paneer.jpg"
+  "img_url": "./assets/images/paneer.jpg"
 }, {
   "name": "Chapathi",
   "type": "Veg",
@@ -87,7 +87,7 @@
     "Dinner"
   ],
   "price": "$240.21",
-  "img_url": "food-order/assets/images/chappathi.jpg"
+  "img_url": "./assets/images/chappathi.jpg"
 }, {
   "name": "Naan",
   "type": "Veg",
@@ -96,7 +96,7 @@
     "Dinner"
   ],
   "price": "$160.90",
-  "img_url": "food-order/assets/images/naan.jpg"
+  "img_url": "./assets/images/naan.jpg"
 }, {
   "name": "Fish FInger",
   "type": "Non-Veg",
@@ -105,7 +105,7 @@
     "Lunch","Dinner"
   ],
   "price": "$84.62",
-  "img_url": "food-order/assets/images/fish-finger.jpg"
+  "img_url": "./assets/images/fish-finger.jpg"
 }, {
   "name": "Crab Lollipop",
   "type": "Non-Veg",
@@ -114,7 +114,7 @@
     "Lunch","Dinner"
   ],
   "price": "$140.97",
-  "img_url": "food-order/assets/images/crab.jpg"
+  "img_url": "./assets/images/crab.jpg"
 }, {
   "name": "Pulav",
   "type": "Veg",
@@ -123,7 +123,7 @@
     "Lunch"
   ],
   "price": "$201.34",
-  "img_url": "food-order/assets/images/pulav.jpg"
+  "img_url": "./assets/images/pulav.jpg"
 }, {
   "name": "Ghee Rice",
   "type": "Veg",
@@ -132,7 +132,7 @@
     "Lunch","Dinner"
   ],
   "price": "$82.51",
-  "img_url": "food-order/assets/images/ghee-rice.jpg"
+  "img_url": "./assets/images/ghee-rice.jpg"
 }, {
   "name": "Veg Thali",
   "type": "Veg",
@@ -141,7 +141,7 @@
     "Lunch"
   ],
   "price": "$246.68",
-  "img_url": "food-order/assets/images/veg-thali.jpg"
+  "img_url": "./assets/images/veg-thali.jpg"
 }, {
   "name": "Non-Veg Thaali",
   "type": "Non-Veg",
@@ -150,7 +150,7 @@
     "Lunch"
   ],
   "price": "$43.52",
-  "img_url": "food-order/assets/images/non-veg-thali.jpg"
+  "img_url": "./assets/images/non-veg-thali.jpg"
 }, {
   "name": "Idiappam",
   "type": "Veg",
@@ -159,7 +159,7 @@
     "Breakfast"
   ],
   "price": "$175.78",
-  "img_url": "food-order/assets/images/idiappam.jpg"
+  "img_url": "./assets/images/idiappam.jpg"
 }, {
   "name": "Poha",
   "type": "Veg",
@@ -168,5 +168,5 @@
     "Breakfast"
   ],
   "price": "$48.59",
-  "img_url": "food-order/assets/images/poha.jpg"
+  "img_url": "./assets/images/poha.jpg"
 }]
