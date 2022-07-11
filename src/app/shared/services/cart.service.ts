@@ -16,5 +16,4 @@ export class CartService {
   updateCartDetails(item: Menu){
     this.cartDetails$.next(item);
   }
-
 }
