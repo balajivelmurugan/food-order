@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Observable, Subscription } from 'rxjs';
+import { MenuStore } from 'src/app/shared/services/menu/menu.store';
 import { MenuService } from '../../services/menu.service';
 import { Menu } from '../../types/menu';
 
@@ -13,19 +14,21 @@ export class MenuListComponent implements OnInit, OnDestroy {
   menuListSubscription : Subscription = new Subscription();
   menuListItems: Menu[] = [];
 
-  constructor(private MService: MenuService) { }
+  constructor(private MService: MenuService, public store: MenuStore) { }
 
   ngOnInit(): void {
     console.log("menu");
     this.menuListSubscription = this.MService.getMenuList().subscribe({next: (response: Menu[]) => {
       response.map(item => item.quantity = 0);
-
+      this.store.updateMenuItems(response);
       console.log(response);
-      this.menuListItems = response;
+      //this.menuListItems = response;
     },
     error: (error) => {
       console.log(error);
     } });
+
+    this.store.state$.subscribe(res => console.log(res.menuItems));
   }
 
   ngOnDestroy(){

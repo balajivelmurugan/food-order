@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { CartService } from 'src/app/shared/services/cart.service';
+import { MenuStore } from 'src/app/shared/services/menu/menu.store';
 import { Menu } from '../../types/menu';
 
 @Component({
@@ -11,7 +12,7 @@ export class MenuCardComponent implements OnInit {
 
   @Input() menuItem: Menu = {} as Menu;
 
-  constructor(private cartService: CartService) { }
+  constructor(public store: MenuStore) { }
 
   ngOnInit(): void {
   }
@@ -21,12 +22,11 @@ export class MenuCardComponent implements OnInit {
   }
 
   addToCart(item: Menu){
-    this.cartService.updateCartDetails(item);
+    this.store.addCartItem(item);
   }
 
   removeCartItems(item: Menu){
-    //let cartItems: = this.cartService.cartDetails$.getValue();
-    //cartItems
-    this.cartService.updateCartDetails(item);
+    if(item.quantity === 0)
+    this.store.removeCartItem(item);
   }
 }

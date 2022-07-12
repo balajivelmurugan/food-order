@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { OrderStore } from 'src/app/shared/services/order/order.store';
 import { OrderService } from '../../services/order.service';
 import { Order } from '../../types/order';
 
@@ -12,11 +13,12 @@ export class OrdersView implements OnInit {
   ordersList: Order[] = [];
   filteredOrderList: Order[] = [];
   filterData: any = {};
-  constructor(private service: OrderService) { }
+  constructor(private service: OrderService, public store: OrderStore) { }
 
   ngOnInit(): void {
     this.service.getOrderData().subscribe({next: (response => {
       this.ordersList = response;
+      this.store.getOrderData(response);
       this.filteredOrderList = this.ordersList;
       console.log(this.ordersList);
     })});

@@ -12,10 +12,13 @@
     </div>
   </div>
   <div>
-    <div fxLayout class="count-container">
-      <mat-icon class="count-icon" (click)="item.quantity = item.quantity-1">remove</mat-icon><span class="count-value">{{item.quantity}}</span><mat-icon class="count-icon" (click)="item.quantity = item.quantity+1">add</mat-icon>
+    <div fxLayout fxLayoutAlign="column" class="count-container">
+      <mat-icon class="count-icon" (click)="item.quantity = item.quantity-1;$event.stopPropagation();removeCartItem(item)">remove</mat-icon><span class="count-value">{{item.quantity}}</span><mat-icon class="count-icon" (click)="item.quantity = item.quantity+1;$event.stopPropagation()">add</mat-icon>
     </div>
   </div>
   </div>
   <mat-divider></mat-divider>
+</div>
+<div fxLayout fxLayoutAlign="end">
+  <button mat-raised-button color="primary" (click)="updateOrderDetails()">Place an Order</button>
 </div>

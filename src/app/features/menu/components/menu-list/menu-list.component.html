@@ -1,7 +1,7 @@
 <div class="container-wrap">
 <app-menu-filters></app-menu-filters>
 <div class="container-wrap" fxLayout.lt-sm="column" fxLayoutAlign="space-between center" fxLayoutGap.gt-md="20px">
-  <div *ngFor="let item of menuListItems" class="menu-item">
+  <div *ngFor="let item of (store.state$ | async)?.menuItems" class="menu-item">
     <app-menu-card [menuItem]="item"></app-menu-card>
   </div>
 </div>

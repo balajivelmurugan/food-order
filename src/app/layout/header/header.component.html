@@ -7,10 +7,18 @@
         <a fxHide.lt-sm="true">Help</a>
         <a fxHide.lt-sm="true" [routerLink]="['/menu']">Home</a>
         <a fxHide.lt-sm="true" [routerLink]="['/orders']" >Orders</a>
-        <a [matMenuTriggerFor]="cartList.length ? cart : null"><span [matBadge]="cartCount" matBadgeOverlap="false" matBadgeSize="medium">Cart</span></a>
+        <a [matMenuTriggerFor]="cart"><span [matBadge]="(store.state$|async)?.cartItems?.length" matBadgeOverlap="false" matBadgeSize="medium">Cart</span></a>
         <mat-menu #cart="matMenu" class="w-100">
-          <app-cart [cartDataList]="cartList" *ngIf="cartList.length"></app-cart>
+          <div *ngIf="(store.state$|async)?.cartItems?.length;else message">
+          <app-cart [cartDataList]="(store.state$|async)?.cartItems || []"></app-cart>
+        </div>
         </mat-menu>
+        <ng-template #message>
+          <div class="alt-message">
+            <h2>YOUR CART IS EMPTY <mat-icon>shopping_bag</mat-icon></h2>
+            <h3>Please add some items from the menu.</h3>
+          </div>
+        </ng-template>
       </nav>
     </div>
   </div>

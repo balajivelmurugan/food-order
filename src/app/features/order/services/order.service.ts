@@ -13,4 +13,5 @@ export class OrderService {
   getOrderData(): Observable<Order[]>{
     return this.http.get<Order[]>('./assets/mock-data/orders.json')
   }
+
 }

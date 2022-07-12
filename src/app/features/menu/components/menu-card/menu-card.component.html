@@ -13,7 +13,7 @@
     <mat-divider></mat-divider>
   </mat-card-content>
   <mat-card-actions fxLayout fxLayoutAlign="end">
-    <div fxLayout class="count-container" *ngIf="menuItem.quantity > 0; else add_to_cart" >
+    <div fxLayout class="count-container" *ngIf="menuItem.quantity > 0 && (store.state$|async)?.cartItems?.length; else add_to_cart" >
       <mat-icon class="count-icon" (click)="menuItem.quantity = menuItem.quantity-1; removeCartItems(menuItem)">remove</mat-icon><span class="count-value">{{menuItem.quantity}}</span><mat-icon class="count-icon" (click)="menuItem.quantity = menuItem.quantity+1;addToCart(menuItem)">add</mat-icon>
     </div>
     <ng-template #add_to_cart>
