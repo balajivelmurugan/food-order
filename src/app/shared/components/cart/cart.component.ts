@@ -18,7 +18,7 @@ export class CartComponent implements OnInit {
 
   @Input() cartDataList !: Menu[];
 
-  constructor(public storeM: MenuStore, public storeO: OrderStore,private snackBar: MatSnackBar) { }
+  constructor(public storeM: MenuStore, public storeO: OrderStore,private snackBar: MatSnackBar, public router: Router) { }
 
   ngOnInit(): void {
   }
@@ -42,7 +42,6 @@ export class CartComponent implements OnInit {
 
     orderItems.push(orderItem);
   })
-  console.log(orderItems)
     this.storeO.updateOrder(orderItems);
     this.storeM.clearCartItem();
     this.snackBar.open('Order is Placed !!!', 'SUCCESS', {
@@ -50,5 +49,6 @@ export class CartComponent implements OnInit {
       verticalPosition: 'top',
       duration: 5 * 1000
     });
+    this.router.navigateByUrl('menu');
   }
 }

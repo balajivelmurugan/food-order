@@ -26,20 +26,17 @@ export class MenuStore extends Store<MenuState>{
         ...new Set([...this.state.cartItems, item])
       ]
     })
-    console.log(this.state.cartItems);
   }
 
   removeCartItem(item: Menu): void{
     let index: number = this.state.cartItems.indexOf(item);
     this.state.cartItems.splice(index, 1);
-    console.log(index);
     this.setState({
       ...this.state,
       cartItems:[
         ...this.state.cartItems, ...this.state.cartItems
       ]
     })
-    console.log(this.state.cartItems);
   }
 
   clearCartItem(): void{

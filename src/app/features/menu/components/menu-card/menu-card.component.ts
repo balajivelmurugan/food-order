@@ -12,21 +12,23 @@ export class MenuCardComponent implements OnInit {
 
   @Input() menuItem: Menu = {} as Menu;
 
-  constructor(public store: MenuStore) { }
+  constructor(public storeM: MenuStore) { }
 
   ngOnInit(): void {
-  }
 
-  test(event: any){
-    console.log(event)
+    this.storeM.state$.subscribe(response => {
+      if(!response.cartItems.length){
+        this.menuItem.quantity = 0;
+      }
+    })
   }
 
   addToCart(item: Menu){
-    this.store.addCartItem(item);
+    this.storeM.addCartItem(item);
   }
 
   removeCartItems(item: Menu){
     if(item.quantity === 0)
-    this.store.removeCartItem(item);
+    this.storeM.removeCartItem(item);
   }
 }

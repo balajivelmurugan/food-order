@@ -17,18 +17,13 @@ export class MenuListComponent implements OnInit, OnDestroy {
   constructor(private MService: MenuService, public store: MenuStore) { }
 
   ngOnInit(): void {
-    console.log("menu");
     this.menuListSubscription = this.MService.getMenuList().subscribe({next: (response: Menu[]) => {
       response.map(item => item.quantity = 0);
       this.store.updateMenuItems(response);
-      console.log(response);
-      //this.menuListItems = response;
     },
     error: (error) => {
       console.log(error);
     } });
-
-    this.store.state$.subscribe(res => console.log(res.menuItems));
   }
 
   ngOnDestroy(){

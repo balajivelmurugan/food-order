@@ -2,3 +2,10 @@
   width: 900px;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .order-container{
+    width: auto;
+  }
+}

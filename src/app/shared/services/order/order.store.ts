@@ -29,4 +29,14 @@ export class OrderStore extends Store<OrderState>{
       ]
     })
   }
+
+  filterCriteria(item: any):void{
+    this.setState({
+      ...this.state,
+      filterOrder: {
+        ...this.state.filterOrder, ...item
+      }
+    })
+  }
+
 }
