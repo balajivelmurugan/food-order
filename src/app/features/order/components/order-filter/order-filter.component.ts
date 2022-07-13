@@ -26,4 +26,10 @@ export class OrderFilterComponent implements OnInit {
     this.store.filterCriteria(this.filters);
   }
 
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    this.filters.value = filterValue;
+    this.store.filterCriteria(this.filters);
+  }
+
 }

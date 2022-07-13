@@ -1,5 +1,6 @@
 .menu-item{
   transition: all 0.5s ease;
+  animation: flip 2s ease;
   &:hover{
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -11,6 +12,11 @@
 
   transform: scale(1.05);
   }
+}
+
+@keyframes flip {
+  0%   {transform: rotateY(90deg)}
+  100% {transform: rotateY(0deg)}
 }
 
 @media only screen and (max-width: 600px) {

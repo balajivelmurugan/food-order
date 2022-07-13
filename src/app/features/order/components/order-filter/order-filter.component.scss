@@ -5,6 +5,10 @@
   .mat-stroked-button{
     font-weight: 200 !important;
   }
+  position: sticky;
+  top:65px;
+  z-index: 1;
+  background: #ffffff;
 }
 
 input{

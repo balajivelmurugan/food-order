@@ -6,6 +6,7 @@ import { OrderFilterComponent } from './components/order-filter/order-filter.com
 import { OrderRouting } from './order-routing.module';
 import { AngularMaterialModule } from 'src/app/angular-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -19,7 +20,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     CommonModule,
     OrderRouting,
     AngularMaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
   ]
 })
 export class OrderModule { }
