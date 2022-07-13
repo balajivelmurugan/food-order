@@ -1,4 +1,5 @@
 <mat-card class="menu-item">
+  <div [ngClass]="{'no-stock': !menuItem.availability.includes(period)}">
   <img mat-card-image [src]="menuItem.img_url" alt="Loading...">
   <h3 class="price">{{menuItem.price}}</h3>
   <mat-card-content>
@@ -7,9 +8,9 @@
     <mat-card-subtitle>{{menuItem.cuisine}}</mat-card-subtitle>
     <mat-card-subtitle>{{menuItem.type}}</mat-card-subtitle>
     </div>
-    <mat-chip-list>
+    <!-- <mat-chip-list>
       <mat-chip *ngFor="let avail of menuItem.availability">{{avail | uppercase}}</mat-chip>
-    </mat-chip-list>
+    </mat-chip-list> -->
     <mat-divider></mat-divider>
   </mat-card-content>
   <mat-card-actions fxLayout fxLayoutAlign="end">
@@ -18,8 +19,10 @@
     </div>
     <ng-template #add_to_cart>
       <div class="add-cart-container">
-        <button mat-stroked-button (click)="menuItem.quantity= menuItem.quantity+1; addToCart(menuItem)">Add to Cart</button>
+        <button mat-stroked-button [disabled]="!menuItem.availability.includes(period)" (click)="menuItem.quantity= menuItem.quantity+1; addToCart(menuItem)">Add to Cart</button>
       </div>
     </ng-template>
   </mat-card-actions>
+</div>
+<div class="error" *ngIf="!menuItem.availability.includes(period)"></div>
 </mat-card>

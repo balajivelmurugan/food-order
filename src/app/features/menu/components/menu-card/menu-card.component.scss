@@ -38,6 +38,7 @@ mat-divider{
   font-weight: bold;
   font-size: 18px;
   padding: 3px 5px;
+  border-radius: 3px;
 }
 
 .count-value{
@@ -75,4 +76,27 @@ mat-divider{
 
 img{
   height:230px;
+}
+
+.no-stock{
+  filter:blur(2px);
+}
+
+.error{
+  &::after{
+    content: 'No Stock';
+    color: #e60f0f;
+    font-size: 40px;
+    bottom: 200px;
+    left: 50px;
+    position: absolute;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+}
+
+.mat-card-actions{
+  margin: 0;
+  margin-top: 5px;
 }

@@ -11,8 +11,9 @@ import { Menu } from '../../types/menu';
 export class MenuCardComponent implements OnInit {
 
   @Input() menuItem: Menu = {} as Menu;
-
-  constructor(public storeM: MenuStore) { }
+  period: string = "Dinner";
+  constructor(public storeM: MenuStore) {
+   }
 
   ngOnInit(): void {
 
