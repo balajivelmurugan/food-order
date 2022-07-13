@@ -14,15 +14,12 @@
     width: 90%;
     margin-bottom: 30px;
   }
+
+  .move-to-top{
+   display:none;
+  }
 }
 
-// @media only screen and (min-width: 768px) {
-//   .container-wrap{
-//     flex-wrap: wrap;
-//     margin: 10px;
-//     width: 100%;
-//   }
-// }
 
 @media only screen and (min-width: 1200px) {
 
@@ -31,4 +28,18 @@
     width: 1300px;
     margin: 0 auto;
   }
+}
+
+.move-to-top{
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  min-width: unset;
+  min-height: unset;
+  border-radius: 50%;
+  transition: opacity 0.8s ease 0s, visibility 0.8s ease 0s;
+  opacity: 1;
+  z-index: 2;
+  visibility: visible;
+  box-shadow: rgba(54, 54, 54, 0.06) 0px 1.6rem 1.6rem, rgba(54, 54, 54, 0.08) 0px 0.8rem 0.8rem;
 }

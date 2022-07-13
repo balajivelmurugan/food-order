@@ -26,6 +26,10 @@ export class MenuListComponent implements OnInit, OnDestroy {
     } });
   }
 
+  moveToTop(){
+    window.scroll(0,0);
+  }
+
   ngOnDestroy(){
     this.menuListSubscription.unsubscribe();
   }
