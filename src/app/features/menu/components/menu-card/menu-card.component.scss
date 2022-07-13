@@ -84,9 +84,9 @@ img{
 
 .error{
   &::after{
-    content: 'No Stock';
+    content: 'Not Available';
     color: #e60f0f;
-    font-size: 40px;
+    font-size: 25px;
     bottom: 200px;
     left: 50px;
     position: absolute;
